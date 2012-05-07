@@ -1,6 +1,6 @@
 require 'rack/openid'
 require 'omniauth/openid/gapps'
-require 'omniauth/openid'
+require 'omniauth/strategies/open_id'
 
 module OmniAuth
   module Strategies
