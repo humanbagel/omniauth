@@ -55,7 +55,7 @@ module OmniAuth
   module Strategies
     autoload :OpenID, 'omniauth/strategies/open_id'
     autoload :GoogleApps, 'omniauth/strategies/google_apps'
-    autoload :GoogleHybrid, 'omniauth/strategies/google_hybrid'
+    autoload :Google, 'omniauth/strategies/google'
     autoload :Steam, 'omniauth/strategies/steam'
   end
 end

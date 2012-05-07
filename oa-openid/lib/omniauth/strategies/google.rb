@@ -6,7 +6,7 @@ module OmniAuth
   module Strategies
     # OmniAuth strategy for connecting to Google via the OpenID+OAuth Hybrid Protocol.
     # For help, check the example implementation on https://github.com/boyvanamstel/Google-Hybrid-Omniauth-implementation
-    class GoogleHybrid < OmniAuth::Strategies::OpenID
+    class Google < OmniAuth::Strategies::OpenID
 
       protected
 
